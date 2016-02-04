@@ -26,6 +26,8 @@ TARGET_PRELINK_MODULE := false
 TARGET_NO_KERNEL ?= false
 TARGET_NO_RECOVERY ?= true
 TARGET_EXTRA_KERNEL_MODULES := tp_smapi
+TARGET_KERNEL_SOURCE := kernel/kernel-4.4
+BOARD_KERNEL_IMAGE_NAME := bzImage
 ifneq ($(filter efi_img,$(MAKECMDGOALS)),)
 TARGET_KERNEL_ARCH ?= x86_64
 endif

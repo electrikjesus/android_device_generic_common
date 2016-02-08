@@ -17,23 +17,10 @@
 # Common packages for Android-x86 platform.
 
 PRODUCT_PACKAGES := \
-    BasicSmsReceiver \
     Development \
-    Galaxy4 \
-    GlobalTime \
-    HoloSpiralWallpaper \
-    Launcher3 \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NotePad \
-    PhaseBeam \
-    PinyinIME \
     Provision \
     RSSReader \
-    VisualizationWallpapers \
     camera.x86 \
-    chat \
     com.android.future.usb.accessory \
     drmserver \
     eject \
@@ -57,6 +44,10 @@ PRODUCT_PACKAGES := \
     tablet-mode \
     v86d \
     wacom-input \
+    Camera2 \
+    Terminal \
+    busybox \
+    powerbtnd
 
 PRODUCT_PACKAGES += \
     libwpa_client \
@@ -75,6 +66,3 @@ PRODUCT_PACKAGES += \
     resize2fs \
     tune2fs \
 
-# Third party apps
-PRODUCT_PACKAGES += \
-    CMFileManager \

@@ -16,13 +16,11 @@
 
 # Common packages for Android-x86 platform.
 
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
     Development \
-    Provision \
     RSSReader \
     camera.x86 \
     com.android.future.usb.accessory \
-    drmserver \
     eject \
     gps.default \
     gps.huawei \
@@ -34,7 +32,6 @@ PRODUCT_PACKAGES := \
     lights.default \
     make_ext4fs \
     parted \
-    powerbtnd \
     scp \
     sensors.hsb \
     sftp \
@@ -44,7 +41,6 @@ PRODUCT_PACKAGES := \
     tablet-mode \
     v86d \
     wacom-input \
-    Camera2 \
     Terminal \
     busybox \
     powerbtnd
@@ -57,12 +53,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     badblocks \
-    e2fsck \
     mke2fs \
     mkntfs \
     mount.exfat \
     ntfs-3g \
     ntfsfix \
-    resize2fs \
     tune2fs \
-

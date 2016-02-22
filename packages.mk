@@ -43,7 +43,8 @@ PRODUCT_PACKAGES := \
     wacom-input \
     Terminal \
     busybox \
-    powerbtnd
+    powerbtnd \
+    btattach
 
 PRODUCT_PACKAGES += \
     libwpa_client \

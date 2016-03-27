@@ -322,8 +322,6 @@ function do_bootcomplete()
 	# FIXME: autosleep works better on i965?
 	[ "$(getprop debug.mesa.driver)" = "i965" ] && setprop debug.autosleep 1
 
-	setprop ro.sf.lcd_density 240
-
 	lsmod | grep -e brcmfmac && setprop wlan.no-unload-driver 1
 	setprop wifi.interface "wlan0"
 	setprop wlan.driver.status "ok"

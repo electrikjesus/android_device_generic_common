@@ -69,7 +69,7 @@ USE_CAMERA_STUB ?= false
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 WPA_SUPPLICANT_VERSION := VER_2_1_DEVEL
 
-BOARD_GPU_DRIVERS ?= i915 i965 nouveau r300g r600g swrast virgl
+BOARD_GPU_DRIVERS ?= i915 i965 nouveau r300g r600g swrast
 ifneq ($(strip $(BOARD_GPU_DRIVERS)),)
 TARGET_HARDWARE_3D := true
 BOARD_EGL_CFG ?= device/generic/common/gpu/egl_mesa.cfg
